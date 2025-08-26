@@ -107,7 +107,7 @@ body {
     .hero-card {
         background: #5a35f4;
         border-radius: 1rem;
-        max-width: 900px;
+        width: 900px;
         padding: 3rem 2rem;
         border: none;
         box-shadow: none;
@@ -331,6 +331,7 @@ body {
 /* MOBILE RESPONSIVENESS */
 /* ---------------------------------------------------- */
 @media (max-width: 767px) {
+  
     /* Hero Section 1 */
     .hero-section1 {
       .hero-content {
@@ -509,4 +510,38 @@ body {
     background-color: transparent;
     padding: 0;
     z-index: auto;
+}
+
+.footer-bottom {
+  border-top:  solid rgba(31, 14, 179, 0.1);
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin: 0 8px;
+  color: #06208a;
+  font-size: 18px;
+}
+
+.social-links a:hover {
+  color: #9d1917;
+}
+
+.footer-contact i {
+  margin-right: 8px; /* adjust space between icon & text */
+  font-size: 18px;   /* optional: control icon size */
+  vertical-align: middle; /* align nicely with text */
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* remove underline */
+  color: inherit;        /* keep text color consistent */
 }
